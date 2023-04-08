@@ -1,0 +1,19 @@
+.container {
+  max-height: 300px;
+  min-height: 300px;
+  background-color: bisque;
+  overflow-y: scroll;
+}
+
+.inp-box {
+  position: fixed;
+  top: 20px;
+  right: 5px;
+}
+
+.inner-content {
+  background-color: bisque;
+}
+.loader {
+  height: 18px;
+}

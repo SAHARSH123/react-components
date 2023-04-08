@@ -1,10 +1,12 @@
 import "./App.css";
-import TabMain from "./components/Tab/TabMain";
+import InfiniteScrollerMain from "./components/InfiniteScroller/InfiniteScrollerMain";
+// import TabMain from "./components/Tab/TabMain";
 
 function App() {
   return (
     <div className="App">
-      <TabMain />
+      {/* <TabMain /> */}
+      <InfiniteScrollerMain searchTerm="spy" />
     </div>
   );
 }
