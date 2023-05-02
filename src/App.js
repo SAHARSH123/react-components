@@ -1,4 +1,5 @@
 import "./App.css";
+import Fetch from "./components/Fetch/Fetch";
 import InfiniteScrollerMain from "./components/Final/InfiniteScroller/InfiniteScrollerMain";
 import Folder from "./components/Folders/Folder";
 import { data } from "./components/Folders/FolderData";
@@ -13,7 +14,8 @@ function App() {
       {/* <InfiniteScrollerMain searchTerm="spy" /> */}
       {/* <InfiniteScrollerMain /> */}
       {/* <Test /> */}
-      <Folder explorerData={data} />
+      {/* <Folder explorerData={data} /> */}
+      <Fetch />
     </div>
   );
 }
