@@ -1,4 +1,5 @@
 import "./App.css";
+import CounterMain from "./components/CountDownTimer/CounterMain";
 import Fetch from "./components/Fetch/Fetch";
 import InfiniteScrollerMain from "./components/Final/InfiniteScroller/InfiniteScrollerMain";
 import Folder from "./components/Folders/Folder";
@@ -15,7 +16,8 @@ function App() {
       {/* <InfiniteScrollerMain /> */}
       {/* <Test /> */}
       {/* <Folder explorerData={data} /> */}
-      <Fetch />
+      {/* <Fetch /> */}
+      <CounterMain />
     </div>
   );
 }
