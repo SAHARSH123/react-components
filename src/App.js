@@ -5,6 +5,8 @@ import InfiniteScrollerMain from "./components/Final/InfiniteScroller/InfiniteSc
 import Folder from "./components/Folders/Folder";
 import { data } from "./components/Folders/FolderData";
 import Test from "./components/Practice/Test";
+import TableMain from "./components/Table/TableMain";
+import Tabs from "./components/Tabs/Tabs";
 // import InfiniteScrollerMain from "./components/InfiniteScroller/InfiniteScrollerMain";
 // import TabMain from "./components/Tab/TabMain";
 
@@ -17,7 +19,9 @@ function App() {
       {/* <Test /> */}
       {/* <Folder explorerData={data} /> */}
       {/* <Fetch /> */}
-      <CounterMain />
+      {/* <CounterMain /> */}
+      {/* <Tabs /> */}
+      <TableMain />
     </div>
   );
 }
