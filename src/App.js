@@ -1,14 +1,15 @@
 import "./App.css";
-import CounterMain from "./components/CountDownTimer/CounterMain";
-import Fetch from "./components/Fetch/Fetch";
-import InfiniteScrollerMain from "./components/Final/InfiniteScroller/InfiniteScrollerMain";
-import Folder from "./components/Folders/Folder";
-import { data } from "./components/Folders/FolderData";
-import Test from "./components/Practice/Test";
-import TableMain from "./components/Table/TableMain";
-import Tabs from "./components/Tabs/Tabs";
+// import CounterMain from "./components/CountDownTimer/CounterMain";
+// import Fetch from "./components/Fetch/Fetch";
+// import InfiniteScrollerMain from "./components/Final/InfiniteScroller/InfiniteScrollerMain";
+// import Folder from "./components/Folders/Folder";
+// import { data } from "./components/Folders/FolderData";
+// import Test from "./components/Practice/Test";
+// import TableMain from "./components/Table/TableMain";
+// import Tabs from "./components/Tabs/Tabs";
 // import InfiniteScrollerMain from "./components/InfiniteScroller/InfiniteScrollerMain";
 // import TabMain from "./components/Tab/TabMain";
+import BoxMain from "./components/BoxChallange/BoxMain";
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
       {/* <Fetch /> */}
       {/* <CounterMain /> */}
       {/* <Tabs /> */}
-      <TableMain />
+      {/* <TableMain /> */}
+      {<BoxMain />}
     </div>
   );
 }
