@@ -9,7 +9,8 @@ import "./App.css";
 // import Tabs from "./components/Tabs/Tabs";
 // import InfiniteScrollerMain from "./components/InfiniteScroller/InfiniteScrollerMain";
 // import TabMain from "./components/Tab/TabMain";
-import BoxMain from "./components/BoxChallange/BoxMain";
+// import BoxMain from "./components/BoxChallange/BoxMain";
+import CarouselMain from "./components/ImageCarousel/CarouselMain";
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
       {/* <CounterMain /> */}
       {/* <Tabs /> */}
       {/* <TableMain /> */}
-      {<BoxMain />}
+      {/* {<BoxMain />} */}
+      <CarouselMain />
     </div>
   );
 }
